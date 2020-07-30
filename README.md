@@ -1,4 +1,4 @@
-# Bash Commands Cheat Sheet :computer: :x:
+# Linux Commands Cheat Sheet :computer: :x:
 
 
 ### Session Management
