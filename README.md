@@ -53,9 +53,10 @@
 
 - ``` > command ```  --> Redirects Output to a File
 - ``` >> command ``` --> Redirects Output to a File and Appends Output To End Of File
-e.g.
+e.g..
 
-```echo "server{listen 80;
+```
+echo "server{listen 80;
   listen 80;
   location / {
       proxy_pass http://192.168.10.100.3000;
