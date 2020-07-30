@@ -11,7 +11,7 @@
 - ``` sudo su ``` --> Changes To Root User
 - ``` exit ``` --> Return Back To Normal User
 
-
+---
 ### File Operations
 
 
@@ -22,12 +22,13 @@
 - ``` head filename ``` Shows first 10 lines of file
 - ``` tail filename ``` --> Shows last 10 lines of file
 
+---
 
 ### File Permissions
 
 - ``` chmod +x filename ``` --> Give executable permission to a file
 
-
+---
 ### Directory Operations
 
 - ``` mkdir directory ``` --> Create A Directory
@@ -38,7 +39,7 @@
 - ``` ls -a ``` --> Check All Files in A directory (include those Hidden)
 - ``` head filename ```
 
-
+---
 ### Bash Variables
 
 - ``` env ``` --> Shows all the Environment Variables
@@ -46,3 +47,20 @@
 - ``` echo $name ``` --> Displaying the value of the variable
 - ``` export name ="Andrew" ``` --> Making name an Environment Variable
 - ``` head filename ```
+
+---
+### Bash Script Commands
+
+- ``` > command ```  --> Redirects Output to a File
+- ``` >> command ``` --> Redirects Output to a File and Appends Output To End Of File
+e.g.
+
+```echo "server{listen 80;
+  listen 80;
+  location / {
+      proxy_pass http://192.168.10.100.3000;
+  }
+}" >> reverse-proxy.conf
+```
+
+The command in the echo will be added into the file named 'reverse-proxy.config'
