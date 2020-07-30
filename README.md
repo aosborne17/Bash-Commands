@@ -37,7 +37,6 @@
 - ``` cd / ``` --> Return to the root directory
 - ``` ls ``` --> Check Contents Of A Directory
 - ``` ls -a ``` --> Check All Files in A directory (include those Hidden)
-- ``` head filename ```
 
 ---
 ### Bash Variables
@@ -46,7 +45,6 @@
 - ``` name ="Andrew" ```
 - ``` echo $name ``` --> Displaying the value of the variable
 - ``` export name ="Andrew" ``` --> Making name an Environment Variable
-- ``` head filename ```
 
 ---
 ### Bash Script Commands
